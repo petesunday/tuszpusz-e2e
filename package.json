@@ -1,0 +1,18 @@
+{
+  "name": "tuszpusz-e2e",
+  "version": "1.0.0",
+  "description": "E2E tests for Tuszpusz client app",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@11.0.0-dev.1005",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
