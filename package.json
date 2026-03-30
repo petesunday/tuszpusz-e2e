@@ -13,6 +13,8 @@
   "packageManager": "pnpm@11.0.0-dev.1005",
   "type": "module",
   "devDependencies": {
-    "@playwright/test": "^1.58.2"
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "dotenv": "^17.3.1"
   }
 }
